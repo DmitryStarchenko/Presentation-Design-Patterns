@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Presentation on Design Patterns</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/night.css" />
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="dist/theme/custom.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-background-transition="slide"
+          data-background="dist/assets/back2.jpg"
+        >
+          <h1 class="color-header">Design Patterns</h1>
+        </section>
+        <section
+          data-background-transition="slide"
+          data-background="dist/assets/back2.jpg"
+        >
+          <section>
+            <h2>What's a design pattern?</h2>
+            <p class="fragment fade-left">
+              Design patterns are typical solutions to commonly occurring
+              problems in software design. They are like pre-made blueprints
+              that you can customize to solve a recurring design problem in your
+              code.
+            </p>
+          </section>
+
+          <section>
+            <h2>Classification of patterns</h2>
+            <p class="fragment fade-left">
+              Design patterns differ by their complexity, level of detail and
+              scale of applicability to the entire system being designed.
+            </p>
+          </section>
+          <section>
+            <h3>Three main groups of patterns:</h3>
+            <ul>
+              <li class="fragment fade-left">Creational patterns</li>
+              <li class="fragment fade-left">Structural patterns</li>
+              <li class="fragment fade-left">Behavioral patterns</li>
+            </ul>
+          </section>
+        </section>
+        <section
+          data-background-transition="slide"
+          data-background="dist/assets/back2.jpg"
+        >
+          <section>
+            <h2>Creational Design Patterns</h2>
+            <ul>
+              <li class="fragment fade-left">Factory Method</li>
+              <li class="fragment fade-left">Builder</li>
+              <li class="fragment fade-left">Singleton</li>
+              <li class="fragment fade-left">Abstract Factory</li>
+              <li class="fragment fade-left">Prototype</li>
+            </ul>
+          </section>
+        </section>
+        <section
+          data-background-transition="slide"
+          data-background="dist/assets/back2.jpg"
+        >
+          <section>
+            <h2>Structural Design patterns</h2>
+            <ul>
+              <li class="fragment fade-left">Adapter</li>
+              <li class="fragment fade-left">Decorator</li>
+              <li class="fragment fade-left">Facade</li>
+              <li class="fragment fade-left">Bridge</li>
+              <li class="fragment fade-left">Composite</li>
+              <li class="fragment fade-left">Flyweight</li>
+              <li class="fragment fade-left">Proxy</li>
+            </ul>
+          </section>
+        </section>
+        <section
+          data-background-transition="slide"
+          data-background="dist/assets/back2.jpg"
+        >
+          <section>
+            <h2>Behavioral Design Patterns</h2>
+            <ul>
+              <li class="fragment fade-left behavioral">Iterator</li>
+              <li class="fragment fade-left behavioral">Observer</li>
+              <li class="fragment fade-left behavioral">Template Method</li>
+              <li class="fragment fade-left behavioral">
+                Chain of Responsibility
+              </li>
+              <li class="fragment fade-left behavioral">Command</li>
+              <li class="fragment fade-left behavioral">Mediator</li>
+              <li class="fragment fade-left behavioral">Memento</li>
+              <li class="fragment fade-left behavioral">State</li>
+              <li class="fragment fade-left behavioral">Strategy</li>
+              <li class="fragment fade-left behavioral">Visitor</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <p>Source:</p>
+          <a href="https://refactoring.guru/design-patterns"
+            ><img
+              width="150px"
+              src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34"
+          /></a>
+          <p>Presentation prepared by:</p>
+          <p>Dmitry Starchenko</p>
+          <a href="https://github.com/DmitryStarchenko"
+            ><img
+              width="50px"
+              height="50px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLQRdhYjGRBRadNoiJfrD3r9oK8oIMqVBuLI-xAwf-XMjd_qx4ra7c8hj7ArtGdZiZN0A&usqp=CAU"
+          /></a>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

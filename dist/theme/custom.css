@@ -1,0 +1,10 @@
+.behavioral {
+  font-size: 32px;
+}
+
+section,
+.reveal .slides section h1,
+.reveal .slides section h2,
+.reveal .slides section h3 {
+  color: rgb(226, 155, 3);
+}
